@@ -22,3 +22,7 @@ export default function Contact() {
 }
 
 
+<<<<<<< HEAD
+=======
+// Meenu
+>>>>>>> aba63042ec5e9d09c72f98b415e80b765a932d63
