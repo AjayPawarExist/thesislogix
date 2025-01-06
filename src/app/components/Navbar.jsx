@@ -86,7 +86,7 @@ export default function Home() {
                         {/* Subscribe Button */}
                         <div className="hidden flex justify-center mt-5 sm:mt-0 sm:block">
                             <button className="border bg-[#de4278] px-6 sm:px-6 py-3 sm:py-4 rounded-md hover:bg-[#b52154] text-white font-semibold">
-                                Subscribe Now
+                                SUBSCRIBE NOW
                             </button>
                         </div>
                     </div>
