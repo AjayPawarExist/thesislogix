@@ -91,8 +91,13 @@ export default function Home() {
 
                         {/* Subscribe Button */}
                         <div className="hidden flex justify-center mt-5 sm:mt-0 sm:block">
+<<<<<<< HEAD
                             <button className="border bg-gradient-to-r from-gray-700 to-blue-500 px-6 sm:px-6 py-3 sm:py-4 rounded-md  text-white font-semibold">
                             Contact Us
+=======
+                            <button className="border bg-[#de4278] px-6 sm:px-6 py-3 sm:py-4 rounded-md hover:bg-[#b52154] text-white font-semibold">
+                                SUBSCRIBE NOW
+>>>>>>> 7756a08d81541c44d8c463f89eabea5c8cf0309f
                             </button>
                         </div>
                     </div>
