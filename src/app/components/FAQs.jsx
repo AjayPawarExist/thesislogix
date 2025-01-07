@@ -33,26 +33,7 @@ export default function FAQSection() {
       answer:
         "Generally, the length of a PhD thesis varies from 100-150 pages; however, it could go up to 200-250 pages depending on the specialization.",
     },
-    {
-      question: "WHAT IS THE MINIMUM PLAGIARISM MAINTAINED IN THE WORK?",
-      answer:
-        "Our writers shall write all chapters originally and there shall be no plagiarism. However, due to some match of technical words and definitions, we guarantee less than 10% plagiarism.",
-    },
-    {
-      question: "WHO WILL WRITE MY RESEARCH METHODOLOGY CHAPTER?",
-      answer:
-        "Our professional with the best knowledge of your research topic, field, and area will write the research methodology for your research.",
-    },
-    {
-      question: "IS THERE ANY SPECIFIC TECHNIQUE USED FOR DATA ANALYSIS?",
-      answer:
-        "There are no particular data analysis techniques; it will be decided according to the data collected and the hypothesis.",
-    },
-    {
-      question: "WILL THE EXPERT WRITE AS PER JOURNAL STANDARDS?",
-      answer:
-        "Yes, our expert will write as per the journal standards and requirements as laid out in their guidelines.",
-    },
+
   ];
 
   return (
@@ -69,7 +50,7 @@ export default function FAQSection() {
       </div>
 
       {/* FAQ Items */}
-      <div className="mt-10 w-full mx-auto space-y-6">
+      <div className="mt-10 w-full mx-auto space-y-6 px-40">
         {faqs.map((faq, index) => (
           <div
             key={index}

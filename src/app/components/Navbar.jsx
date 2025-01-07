@@ -11,7 +11,11 @@ export default function Home() {
     return (
         <>
             {/* contact part */}
+<<<<<<< HEAD
             <div className="hidden  sm:flex flex-col sm:flex-row justify-between items-center text-white h-auto sm:h-9 bg-gradient-to-r from-gray-950 to-blue-900 w-full py-2 sm:py-0 px-5">
+=======
+            <div className=" hidden sm:block flex flex-col sm:flex-row justify-between items-center text-white h-auto sm:h-9 bg-gradient-to-r from-gray-950 to-blue-900 w-full py-2 sm:py-0 px-5">
+>>>>>>> 58e621fabd845ecaec3480e5e68da6f7bbf70d34
                 {/* Left Section */}
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-10">
                     <p className="flex gap-2 items-center text-sm">
@@ -67,10 +71,19 @@ export default function Home() {
                           
                         {/* Dropdown Menu */}
 
+<<<<<<< HEAD
+=======
+                            {/* Dropdown Menu */}
+                           
+                               
+
+                                {/* Dropdown Menu */}
+>>>>>>> 58e621fabd845ecaec3480e5e68da6f7bbf70d34
                                 <div className="group relative">
                                     <Link href="/services" >
                                         Services
                                     </Link>
+<<<<<<< HEAD
                                 <div className= "sm:group-hover:block hidden absolute top-full left-0  bg-gray-800 px-5 sm:px-10 text-white py-5 ">
                                     <div className="">
                                     <h1 className="font-semibold ">RESEARCH SERVICES</h1>
@@ -79,6 +92,16 @@ export default function Home() {
                                     <p className="mt-3  ">THESIS ANALYSIS AND SUMMARY</p>
                                     <p className="mt-3  ">SYNOPSIS/RESEARCH OUTLINE</p>
                                     <p className="mt-3  ">QUESTIONNAIRE</p>
+=======
+                                <div className= "  sm:group-hover:block hidden absolute top-full left-0  sm:bg-slate-500 px-5 sm:px-10 text-white py-5 ">
+                                    <div className="">
+                                    <h1 className="font-semibold text-black">RESEARCH SERVICES</h1>
+                                    <p className="mt-3 hover:text-gray-600">TOPIC MAKING SERVICE</p>
+                                    <p className="mt-3 hover:text-gray-600">THESIS WRITING</p>
+                                    <p className="mt-3 hover:text-gray-600">THESIS ANALYSIS AND SUMMARY</p>
+                                    <p className="mt-3 hover:text-gray-600">SYNOPSIS/RESEARCH OUTLINE</p>
+                                    <p className="mt-3 hover:text-gray-600">QUESTIONNAIRE</p>
+>>>>>>> 58e621fabd845ecaec3480e5e68da6f7bbf70d34
                                     </div>
                                 </div>
                             </div>
