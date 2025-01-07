@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
             {/* contact part */}
-            <div className="flex flex-col sm:flex-row justify-between items-center text-white h-auto sm:h-9 bg-gradient-to-r from-gray-950 to-blue-900 w-full py-2 sm:py-0 px-5">
+            <div className=" hidden sm:block flex flex-col sm:flex-row justify-between items-center text-white h-auto sm:h-9 bg-gradient-to-r from-gray-950 to-blue-900 w-full py-2 sm:py-0 px-5">
                 {/* Left Section */}
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-10">
                     <p className="flex gap-2 items-center text-sm">
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
 
 
-            <div className="bg-gradient-to-r from-[#4fc6e1] to-[#03578c] py-4">
+            <div className="border-b-2  py-4">
                 <div className="flex justify-between items-center w-full mx-auto px-10">
                     {/* Logo */}
                     <div className="">
@@ -65,34 +65,32 @@ export default function Home() {
                             <Link href="/about">About Us</Link>
 
                             {/* Dropdown Menu */}
-                            <div className="group relative"
-                                onMouseEnter={() => setMenuopen(true)}
-                                onMouseLeave={() => setMenuopen(false)}
-                            >
-                                {/* Main Link */}
-                                <Link href="/services" >
-                                    Services
-                                </Link>
+                           
+                               
 
                                 {/* Dropdown Menu */}
-                                <div
-                                    className={`${Menuopen ? 'block' : 'hidden'
-                                        } group-hover:block absolute top-full left-0 bg-slate-500 px-5 sm:px-10 text-white py-5 shadow-lg`}
-                                >
+                                <div className="group relative">
+                                    <Link href="/services" >
+                                        Services
+                                    </Link>
+                                <div className= "  sm:group-hover:block hidden absolute top-full left-0  sm:bg-slate-500 px-5 sm:px-10 text-white py-5 ">
+                                    <div className="">
                                     <h1 className="font-semibold text-black">RESEARCH SERVICES</h1>
                                     <p className="mt-3 hover:text-gray-600">TOPIC MAKING SERVICE</p>
                                     <p className="mt-3 hover:text-gray-600">THESIS WRITING</p>
                                     <p className="mt-3 hover:text-gray-600">THESIS ANALYSIS AND SUMMARY</p>
                                     <p className="mt-3 hover:text-gray-600">SYNOPSIS/RESEARCH OUTLINE</p>
                                     <p className="mt-3 hover:text-gray-600">QUESTIONNAIRE</p>
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
 
                         {/* Subscribe Button */}
                         <div className="hidden flex justify-center mt-5 sm:mt-0 sm:block">
-                            <button className="border bg-[#de4278] px-6 sm:px-6 py-3 sm:py-4 rounded-md hover:bg-[#b52154] text-white font-semibold">
-                                SUBSCRIBE NOW
+                            <button className="border bg-gradient-to-r from-gray-700 to-blue-500 px-6 sm:px-6 py-3 sm:py-4 rounded-md  text-white font-semibold">
+                            Contact Us
                             </button>
                         </div>
                     </div>
