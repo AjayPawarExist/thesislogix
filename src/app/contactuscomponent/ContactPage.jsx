@@ -9,7 +9,7 @@ export default function ContactPage() {
     return (
         <>
             {/* Contact Page */}
-            <div className="flex flex-col md:flex-row justify-around gap-24 bg-white text-black px-6 md:px-20 py-8">
+            <div className="flex flex-col md:flex-row justify-around gap-24 bg-white text-black px-6 md:px-20 py-8 ">
                 {/* Left Side: Contact Details */}
                 <div className="w-full md:w-1/2">
                     <h1 className="text-3xl font-semibold sm:text-2xl lg:text-4xl">Get in Touch</h1>

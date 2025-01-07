@@ -32,11 +32,11 @@ export default function Home() {
             </div>
 
 
-            <div className="bg-gradient-to-r from-[#eeeeee] to-[#dddddd] py-4">
-                <div className="flex justify-between items-center max-w-[1320px] mx-auto">
+            <div className="bg-gradient-to-r from-[#4fc6e1] to-[#03578c] py-4">
+                <div className="flex justify-between items-center w-full mx-auto px-10">
                     {/* Logo */}
-                    <div className="ml-6 sm:ml-11">
-                        <Image src="/logo.png" width={200} height={100} alt="Logo" className="sm:w-[190px] sm:h-[60px]" />
+                    <div className="">
+                        <Image src="/logo.png" width={200} height={100} alt="Logo" className="sm:w-[170px] sm:h-[50px]" />
                     </div>
 
                     {/* Hamburger Icon (Mobile View) */}
@@ -60,33 +60,39 @@ export default function Home() {
                         className={`${Menuopen ? 'block' : 'hidden'
                             } absolute top-[8rem] left-0 w-full bg-gray-700 sm:static sm:flex sm:w-auto sm:bg-transparent sm:gap-10 text-lg`}
                     >
-                        <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-9 p-5 sm:p-0 md:text-nowrap">
+                        <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-9 p-5 sm:p-0 md:text-nowrap sm:mr-[17rem] sm:font-semibold ">
                             <Link href="/">Home</Link>
                             <Link href="/about">About Us</Link>
 
                             {/* Dropdown Menu */}
-                            <div className="group relative">
-                                <Link href="/services">Services</Link>
+                            <div className="group relative"
+                                onMouseEnter={() => setMenuopen(true)}
+                                onMouseLeave={() => setMenuopen(false)}
+                            >
+                                {/* Main Link */}
+                                <Link href="/services" >
+                                    Services
+                                </Link>
+
+                                {/* Dropdown Menu */}
                                 <div
                                     className={`${Menuopen ? 'block' : 'hidden'
                                         } group-hover:block absolute top-full left-0 bg-slate-500 px-5 sm:px-10 text-white py-5 shadow-lg`}
                                 >
-                                    <h1 className="font-semibold">RESEARCH SERVICES</h1>
-                                    <p className="mt-3">TOPIC MAKING SERVICE</p>
-                                    <p>THESIS WRITING</p>
-                                    <p>THESIS ANALYSIS AND SUMMARY</p>
-                                    <p>SYNOPSIS/RESEARCH OUTLINE</p>
-                                    <p>QUESTIONNAIRE</p>
+                                    <h1 className="font-semibold text-black">RESEARCH SERVICES</h1>
+                                    <p className="mt-3 hover:text-gray-600">TOPIC MAKING SERVICE</p>
+                                    <p className="mt-3 hover:text-gray-600">THESIS WRITING</p>
+                                    <p className="mt-3 hover:text-gray-600">THESIS ANALYSIS AND SUMMARY</p>
+                                    <p className="mt-3 hover:text-gray-600">SYNOPSIS/RESEARCH OUTLINE</p>
+                                    <p className="mt-3 hover:text-gray-600">QUESTIONNAIRE</p>
                                 </div>
                             </div>
-
-                            <Link href="/faqs">FAQs</Link>
                         </div>
 
                         {/* Subscribe Button */}
                         <div className="hidden flex justify-center mt-5 sm:mt-0 sm:block">
-                            <button className="border bg-[#de4278] px-6 sm:px-6 py-3 sm:py-4 rounded-md hover:bg-[#b52154] text-white font-semibold">
-                                Subscribe Now
+                            <button className="border bg-gradient-to-r from-gray-700 to-blue-500 px-6 sm:px-6 py-3 sm:py-4 rounded-md  text-white font-semibold">
+                            Contact Us
                             </button>
                         </div>
                     </div>
