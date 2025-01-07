@@ -3,7 +3,7 @@ import { IoMail } from "react-icons/io5";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-950 text-white w-full py-10">
+    <div className="bg-gray-800 text-white w-full py-10">
       {/* Top Section */}
       <div className="flex flex-col md:flex-row justify-around items-start gap-10 px-6 sm:px-10 lg:px-20">
         {/* Quick Link Section */}
