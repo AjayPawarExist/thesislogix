@@ -67,10 +67,7 @@ export default function Home() {
                             <Link href="/">Home</Link>
                             <Link href="/about">About Us</Link>
                           
-                        {/* Dropdown Menu */}
-
-
-                            {/* Dropdown Menu */}
+                     
                            
                                
 
