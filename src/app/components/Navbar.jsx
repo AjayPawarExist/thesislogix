@@ -4,6 +4,7 @@ import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import Image from "next/image";
 import { useState } from "react";
+import { IoIosArrowForward } from "react-icons/io";
 
 export default function Home() {
     const [Menuopen, setMenuopen] = useState(false);
@@ -73,14 +74,14 @@ export default function Home() {
                                     <Link href="/services" >
                                         Services
                                     </Link>
-                                <div className= "  sm:group-hover:block hidden absolute top-full left-0  sm:bg-slate-500 px-5 sm:px-10 text-white py-5 ">
-                                    <div className="">
-                                    <h1 className="font-semibold text-black">RESEARCH SERVICES</h1>
-                                    <p className="mt-3 hover:text-gray-600">TOPIC MAKING SERVICE</p>
-                                    <p className="mt-3 hover:text-gray-600">THESIS WRITING</p>
-                                    <p className="mt-3 hover:text-gray-600">THESIS ANALYSIS AND SUMMARY</p>
-                                    <p className="mt-3 hover:text-gray-600">SYNOPSIS/RESEARCH OUTLINE</p>
-                                    <p className="mt-3 hover:text-gray-600">QUESTIONNAIRE</p>
+                                <div className= "  sm:group-hover:block hidden absolute top-full left-0  bg-gray-800 px-5 sm:px-10 text-white py-5 ">
+                                    <div className="flex flex-col">
+                                    <h1 className="font-semibold text-red-500">RESEARCH SERVICES</h1>
+                                    <Link href='/topicmakings' className="mt-3 hover:text-blue-600 text-[14px] flex"><IoIosArrowForward/>TOPIC MAKING SERVICE</Link>
+                                    <Link href='/thesiswriting' className="mt-3 hover:text-blue-600 text-[14px] flex"><IoIosArrowForward />THESIS WRITING</Link>
+                                    <Link href='/thesisanalysis' className="mt-3 hover:text-blue-600 text-[14px] flex"><IoIosArrowForward />THESIS ANALYSIS AND SUMMARY</Link>
+                                    <Link href='/synopsis' className="mt-3 hover:text-blue-600 text-[14px] flex"><IoIosArrowForward />SYNOPSIS/RESEARCH OUTLINE</Link>
+                                    <Link href='/question' className="mt-3 hover:text-blue-600 text-[14px] flex"><IoIosArrowForward />QUESTIONNAIRE</Link>
                                     </div>
                                 </div>
                             </div>
