@@ -4,7 +4,7 @@ import { GiArchiveResearch } from 'react-icons/gi';
 
 export default function ResearchServices() {
   return (
-    <div className="max-w-[1320px] mx-auto mt-[4rem] text-white px-5">
+    <div className="max-w-[1320px] mx-auto mt-[2rem] text-white px-5">
       {/* Section Title */}
       <h1 className="text-3xl sm:text-4xl text-center py-5 text-black font-semibold mb-7">
         Research Services
