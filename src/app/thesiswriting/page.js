@@ -6,7 +6,7 @@ export default function page() {
     {/* Hero Section */}
     <div className="flex justify-center">
       <div className="w-full h-[300px] bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
-        <h1 className="text-4xl lg:text-7xl text-white font-bold">THESIS WRITING</h1>
+        <h1 className="text-4xl lg:text-6xl text-white ">THESIS WRITING</h1>
         <p className="text-[22px] text-gray-950 mt-4">Home &gt; Services &gt; TOPIC MAKING SERVICE</p>
       </div>
     </div>
