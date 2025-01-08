@@ -5,7 +5,7 @@ export default function page() {
     <>
 
     <div className="flex justify-center overflow-hidden  ">
-      <div className="h-[270px] w-full bg-gradient-to-b bg-blue-950 to-gray-600 text-center py-20">
+      <div className="h-[270px] w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
         <span className="text-4xl text-white px-4">
           SYNOPSIS/RESEARCH OUTLINE
           <p className="text-[1.5rem] text-gray-500 py-2">

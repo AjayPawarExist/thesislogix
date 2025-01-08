@@ -4,7 +4,7 @@ export default function page() {
   return (
     <>
       <div className="flex justify-center ">
-        <div className="h-[270px] w-full bg-gradient-to-b bg-blue-900 to-gray-600 text-center py-20">
+        <div className="h-[270px] w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
           <span className="text-6xl md:text-7xl text-white">
             Questionnaire
             <p className="text-[23px] md:text-xl text-gray-900 py-2">
