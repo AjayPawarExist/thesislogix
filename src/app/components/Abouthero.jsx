@@ -48,7 +48,7 @@ export default function AboutHero() {
         {/* Right Section */}
         <div className="w-full lg:w-[45%] flex justify-center lg:justify-end">
           <Image
-            src="/aboutpic.png"
+            src="/meetingabout.webp"
             alt="About ThesisLogix"
             width={500}
             height={500}
