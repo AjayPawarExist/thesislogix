@@ -9,18 +9,18 @@ export default function About() {
           About <span className="text-blue-600">ThesisLogix</span>
         </h1>
         <p className="mt-4 text-base sm:text-lg text-gray-600">
-          Empowering doctoral scholars to achieve academic excellence
+          Empowering research scholars to achieve academic excellence
         </p>
       </div>
 
       {/* Content Section */}
-      <div className="shadow-lg rounded-xl border border-gray-200 overflow-hidden mb-12 sm:mb-16 bg-white">
+      <div className="shadow-lg rounded-xl border border-gray-200 overflow-hidden mb-12 sm:mb-16 bg-white text-justify">
         <div className="p-8 sm:p-12 lg:p-16">
           <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-            At <span className="font-semibold text-blue-600">ThesisLogix</span>, we don’t just offer research assistance—we empower doctoral scholars to turn their academic dreams into reality. Our mission is to simplify the complex process of PhD research by providing expert consultation at every stage, ensuring that your work meets the highest standards of quality and innovation.
+            At <span className="font-semibold text-blue-600">ThesisLogix</span>, we don’t just offer research assistance—we empower research scholars to turn their academic dreams into reality. Our mission is to simplify the complex process of PG and PhD research by providing expert consultation at every stage, ensuring that your work meets the highest standards of quality and innovation.
           </p>
           <p className="mt-6 text-gray-700 text-base sm:text-lg leading-relaxed">
-            Since 2005, our professional research consultants and writers have partnered with thousands of doctoral candidates worldwide, helping them navigate the challenges of thesis writing with confidence. Whether it’s selecting the right research topic, drafting a flawless thesis, or perfecting your work through meticulous proofreading and editing, ThesisLogix ensures that every detail is handled with precision.
+            Since 2005, our professional research consultants and writers have partnered with thousands of research candidates worldwide, helping them navigate the challenges of thesis writing with confidence. Whether it’s selecting the right research topic, drafting a flawless thesis, or perfecting your work through meticulous proofreading and editing, ThesisLogix ensures that every detail is handled with precision.
           </p>
           <p className="mt-6 text-gray-700 text-base sm:text-lg leading-relaxed">
             Our services go beyond just delivering a document—we work to enhance your research skills and understanding, ensuring that you stand out among your peers. We believe that every scholar’s research journey is unique, and that’s why we offer personalized solutions tailored to your specific academic needs.

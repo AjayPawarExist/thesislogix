@@ -1,23 +1,30 @@
 import React from "react";
-
+import Image from 'next/image'
 export default function page() {
   return (
     <>
+
+      {/* Questionnaire section start  */}
       <div className="flex justify-center ">
         <div className="h-[270px] w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
-          <span className="text-6xl md:text-6xl text-white">
+          <span className="text-4xl lg:text-5xl text-white">
             Questionnaire
-            <p className="text-[23px] md:text-xl text-gray-900 py-2">
+            <p className="text-lg md:text-xl text-white py-2">
               Home &gt; Services &gt; Questionnaire
             </p>
           </span>
         </div>
       </div>
+      {/* image of questionnaire  */}
+      <div className='w-full flex justify-center pt-5'>
+        <Image src="/Questionnaire.jpg" alt="error" width={400} height={100} className='w-[70%] h-[400px]' />
+      </div>
 
-      <div className="px-4 sm:px-12 md:px-24 py-6">
+      {/* content section start  */}
+      <div className="px-4 sm:px-12 md:px-24 py-6 text-justify">
         <div className="h-auto w-full  bg-gray-100 shadow-lg shadow-blue-200 px-6 md:px-10 rounded-lg py-8">
           <h1 className="text-lg sm:text-2xl font-bold">
-            What Is a Questionnaire, and How Is It Used in Research?
+            What is a Questionnaire, and How is it used in research?
           </h1>
           <p className="py-4">
             Be it government, a for-profit organisation, or maybe a
@@ -42,6 +49,7 @@ export default function page() {
           </p>
         </div>
 
+        {/* purpose of questionnaire  */}
         <div className="h-auto w-full  bg-gray-100 shadow-lg shadow-blue-200 px-6 md:px-10 rounded-lg mt-4 py-8">
           <h1 className="text-lg md:text-xl font-bold py-2">
             Purpose of Questionnaire
@@ -55,7 +63,7 @@ export default function page() {
             responses. The method of analyzing responses is called surveying.
           </p>
           <h1 className="text-lg md:text-xl font-bold">
-            Is Questionnaire Just Another Word for “Survey”?
+            Is Questionnaire just another word for “Survey”?
           </h1>
           <p className="py-2">
             While the two terms seem synonymous, they aren’t quite the same. A
@@ -67,7 +75,7 @@ export default function page() {
 
         <div className="h-auto w-full  bg-gray-100 shadow-lg shadow-blue-200 px-6 md:px-10 rounded-lg mt-4 py-8">
           <h1 className="text-lg md:text-xl font-bold py-4">
-            Why Are Questionnaires Effective in Research?
+            Why are questionnaires effective in research?
           </h1>
           <p className="py-2">
             Questionnaires are popular research methods because they provide a
@@ -75,7 +83,7 @@ export default function page() {
             from sizeable sample volumes.
           </p>
           <h1 className="text-lg md:text-xl font-bold py-4">
-            Types of Questionnaires in Research
+            Types of Questionnaires in research
           </h1>
           <ul className="list-disc pl-5 space-y-2">
             <li>Postal: Paper surveys sent through the mail.</li>
@@ -87,7 +95,7 @@ export default function page() {
 
         <div className="h-auto w-full  bg-gray-100 shadow-lg shadow-blue-200 px-6 md:px-10 rounded-lg mt-4 py-8">
           <h1 className="text-lg md:text-xl font-bold">
-            Main Considerations in Designing a Questionnaire
+            Main considerations in designing a questionnaire
           </h1>
           <p className="py-2">
             Once the choice has been made to use a specific format, the
@@ -112,7 +120,7 @@ export default function page() {
             into two categories: factual and subjective.
           </p>
           <h1 className="text-lg md:text-xl font-bold py-4">
-            Pros and Cons of Using Questionnaires in Research
+            Pros and Cons of using questionnaires in research
           </h1>
           <p className="font-bold py-2">PROS:</p>
           <ul className="list-disc pl-5 space-y-2">

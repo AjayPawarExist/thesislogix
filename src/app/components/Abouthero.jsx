@@ -9,11 +9,11 @@ export default function AboutHero() {
           <h1 className="text-4xl sm:text-5xl text-gray-900 font-semibold ">
             About ThesisLogix
           </h1>
-          <div className="mt-8 sm:mt-12 text-gray-600 space-y-8">
+          <div className="mt-8 sm:mt-12 text-gray-600 space-y-8 text-justify">
             {/* Paragraph 1 */}
             <div className="p-6 bg-white rounded-lg shadow-md">
               <p className="text-base sm:text-lg">
-                Welcome to ThesisLogix Services, a trusted leader in PhD research assistance since 2005. With a commitment to empowering doctoral scholars, we provide comprehensive research consultation services tailored to the unique needs of each candidate. Over the years, we have earned the trust of numerous scholars by delivering consistent, high-quality support throughout their academic journey.
+                Welcome to ThesisLogix Services, a trusted leader in PG and PhD research assistance since 2005. With a commitment to empowering research scholars, we provide comprehensive research consultation services tailored to the unique needs of each candidate. Over the years, we have earned the trust of numerous scholars by delivering consistent, high-quality support throughout their academic journey.
               </p>
             </div>
 
@@ -36,10 +36,10 @@ export default function AboutHero() {
             </div>
 
             {/* Stat 2 */}
-            <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-xl shadow-lg text-center sm:text-left">
+            <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-xl shadow-lg text-center sm:text-left ">
               <h1 className="text-4xl sm:text-5xl font-bold text-yellow-600">15 Years</h1>
               <p className="mt-4 text-base sm:text-lg text-gray-700">
-                Dr. Dixit brings over 15 years of experience in educational consulting, ensuring high-quality support for all clients.
+                Our team brings over 15 years of experience in educational consulting, ensuring high-quality support for all clients.
               </p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 export default function Footer() {
@@ -61,11 +61,12 @@ export default function Footer() {
       {/* Bottom Section */}
       <div className="flex flex-col md:flex-row justify-between items-center mt-10 gap-4 px-6 sm:px-10 lg:px-20">
         <p>2025 © All rights reserved by ThesisLogix</p>
-        
+
         <div className="flex gap-4 text-2xl">
           <FaFacebook />
           <FaLinkedin />
           <FaTwitter />
+          <FaInstagram />
         </div>
       </div>
     </div>

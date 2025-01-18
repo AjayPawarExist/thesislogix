@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin , FaInstagram } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import Image from "next/image";
 import { useState } from "react";
@@ -40,6 +40,7 @@ export default function Home() {
                     <FaFacebook />
                     <FaTwitter />
                     <FaLinkedin />
+                    <FaInstagram />
                 </div>
             </div>
 

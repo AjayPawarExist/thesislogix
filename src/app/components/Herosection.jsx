@@ -10,7 +10,7 @@ export default function HeroSection() {
           <span className="text-black sm:text-blue-950 text-3xl sm:text-6xl"> M</span>aster Your Data,<br /> Empower Your <br /> Research
         </h1>
         <p className=" text-lg pt-6 text-justify sm:text-left text-gray-600 sm:w-[28rem]">
-          Unlock the power of your research data with PhD Box India. We deliver precise analysis, reliable reports, and tailored mentoring for academic excellence.        </p>
+          Unlock the power of your research data with PG and PhD Box India. We deliver precise analysis, reliable reports, and tailored mentoring for academic excellence.        </p>
 
         {/* button content start */}
         <div className='flex flex-col items-center sm:flex-row gap-5 mt-12  '>
