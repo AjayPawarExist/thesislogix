@@ -75,16 +75,18 @@ export default function Home() {
 
                             {/* Dropdown Menu */}
 
-                           <div className="group relative">
-  <Link href="" className="hover:text-blue-500">
-    Services
-  </Link>
+                 <div className="group relative">
+                         <Link href="" className="hover:text-blue-500">
+                             Services
+                         </Link>
   <div
     onClick={closeMenu}
-    className="group-hover:block hidden absolute top-full left-1/2 transform -translate-x-1/2 bg-gray-800 px-6 sm:px-10 text-white py-5 rounded shadow-lg"
-  >
+    className="group-hover:block hidden absolute top-full left-1/2 transform -translate-x-1/2 bg-gray-800 px-6 sm:px-10 text-white py-5 rounded shadow-lg ">
     <div className="flex flex-col ">
-      <h1 className="font-semibold text-red-500 whitespace-nowrap">RESEARCH SERVICES</h1>
+      <h1 className="font-semibold text-red-500 whitespace-nowrap sm:ml-[8rem]">RESEARCH SERVICES</h1>
+      </div>
+      <div className="sm:flex gap-5">
+      <div className="">
       <Link
         href="/topicmakings"
         className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
@@ -112,7 +114,32 @@ export default function Home() {
         className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex" >
      
         <IoIosArrowForward /> QUESTIONNAIRE
+      
       </Link>
+      <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward />PAPER PUBLICATION
+
+        </Link>
+      </div>
+   
+    <div className=" whitespace-nowrap">
+        
+        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward />PATTEN SERVICE
+        </Link>
+        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward /> IMPLEMENTATION SERVICE
+        </Link>
+        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward /> BOOK PUBLISHING   
+        </Link>
+        <Link href=""  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward />AI CONTENT REWTRITING
+        </Link>
+        <Link href=""  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward /> PLAGIARISM SERVICE
+        </Link>
+        </div>
     </div>
   </div>
 </div>
