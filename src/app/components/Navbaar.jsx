@@ -116,7 +116,7 @@ export default function Home() {
         <IoIosArrowForward /> QUESTIONNAIRE
       
       </Link>
-      <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+      <Link href="/publication" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
         <IoIosArrowForward />PAPER PUBLICATION
 
         </Link>
@@ -124,19 +124,19 @@ export default function Home() {
    
     <div className=" whitespace-nowrap">
         
-        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
-        <IoIosArrowForward />PATTEN SERVICE
+        <Link href="/pattern" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward />PATTERN SERVICE
         </Link>
-        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <Link href="/implementation" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
         <IoIosArrowForward /> IMPLEMENTATION SERVICE
         </Link>
-        <Link href="" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <Link href="/book" className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
         <IoIosArrowForward /> BOOK PUBLISHING   
         </Link>
-        <Link href=""  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
-        <IoIosArrowForward />AI CONTENT REWTRITING
+        <Link href="/rewriting"  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <IoIosArrowForward />AI CONTENT REWRITING
         </Link>
-        <Link href=""  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
+        <Link href="plagiarism"  className="mt-3 items-center gap-3 hover:text-blue-600 text-[14px] flex">
         <IoIosArrowForward /> PLAGIARISM SERVICE
         </Link>
         </div>
