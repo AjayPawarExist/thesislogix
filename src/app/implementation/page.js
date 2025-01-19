@@ -18,7 +18,7 @@ export default function Implementation() {
           <h1 className="text-2xl py-2 font-semibold">
             WHAT ARE IMPLEMENTATION SERVICES?
           </h1>
-          <p className="text-base md:text-lg leading-relaxed text-justify">
+          <p className="text-gray-700 md:text-lg leading-relaxed ">
             Implementation services are provided by both software companies and
             IT consultancies to help customers realize value from their product
             purchase. The implementation team will have responsibility for
@@ -28,7 +28,7 @@ export default function Implementation() {
             methodology needed.
           </p>
 
-          <p className="text-base md:text-lg leading-relaxed text-justify">
+          <p className="text-gray-700 md:text-lg leading-relaxed mt-4">
             Companies implementing less complex products will often focus on
             having rapid deployment times, ideally with self-service elements to
             the onboarding phase to help scale. As the complexity of the
@@ -113,7 +113,7 @@ export default function Implementation() {
           <h1 className="text-2xl py-2 font-semibold">
             WHY IS IMPLEMENTATION IMPORTANT?
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 md:text-lg leading-relaxed">
             Failed implementations lead to churn - Gartner research found $5b in
             annual churn due to poor onboarding. Speed to value should be the
             guiding principle of your delivery methodology. The quality and
@@ -121,7 +121,7 @@ export default function Implementation() {
             relationship where first impressions matter.
           </p>
 
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 md:text-lg leading-relaxed">
             As Saood Shah, former VP of Professional Services at Gainsight,
             states “Optimizing for time-to-value had a significant impact on any
             services organization that I’ve been a part of with the
@@ -129,12 +129,12 @@ export default function Implementation() {
             expansion sales and overall customer confidence.”
           </p>
         </div>
-        <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 text-justify">
+        <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 ">
           <h1 className="text-2xl py-4 font-semibold ">
             {" "}
             HOW DELIVERY TIMES IMPACT REVENUE
           </h1>
-          <p>
+          <p className="text-gray-700">
             he best professional services team understands the financial impact
             of faster implementations. Accounting standards mean that companies
             can increasingly only recognize revenue part way through an
@@ -145,15 +145,15 @@ export default function Implementation() {
             in delivery.
           </p>
 
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 md:text-lg leading-relaxed">
             Companies that can improve the consistency and velocity of delivery
             will not only drive better retention rates but also have a
             significantimpact on the financial performance of the company.
           </p>
-          <h1 className="text-2xl py-4 font-semibold">
+          <h1 className="text-2xl py-4 font-semibold mt-7">
             PRECURSIVE MAKES IMPLEMENTATIONS EASY
           </h1>
-          <p className="">
+          <p className="text-gray-700">
             Customer success starts with customer onboarding. You can build
             project plans for implementation projects that reduce delays and
             improve time-to-value. Precursive PSA helps to optimize all elements

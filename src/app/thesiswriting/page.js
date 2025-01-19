@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function page() {
   return (
-    <><div className="bg-white text-black text-justify">
+    <><div className="bg-white text-black">
       {/* Hero Section */}
       <div className="flex justify-center">
         <div className="w-full h-[300px] bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">

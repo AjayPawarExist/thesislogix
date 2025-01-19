@@ -38,7 +38,7 @@ export default function Patten() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-6">
             What are the Patterns in Thesislogix?
           </h2>
-          <p className=" sm:text-xl md:text-2xl text-gray-700 mb-8">
+          <p className=" sm:text-xl md:text-2xl text-gray-700 mb-8 ">
             Thesislogix offers various research patterns to ensure thesis
             quality, organization, and thorough analysis. These patterns
             include:
@@ -116,15 +116,15 @@ export default function Patten() {
           <h3 className="text-xl text-center sm:text-2xl md:text-3xl font-semibold text-gray-800  mt-10">
             How It Helps?
           </h3>
-          <div className=" p-6 bg-white rounded-lg shadow-xl text-justify ">
-            <p className="mt-4 text-xl  md:text-xl text-gray-700 text-justify">
+          <div className=" p-6 bg-white rounded-lg shadow-xl ">
+            <p className="mt-4 text-xl  md:text-xl text-gray-700">
               By following these patterns, students and researchers can ensure
               that their thesis is well-organized, consistent, and aligned with
               academic standards. These patterns guide the researcher in
               producing a structured, coherent, and well-supported thesis.
             </p>
 
-            <p className="mt-4 text-xl sm: md:text-xl text-gray-700 text-justify">
+            <p className="mt-4 text-xl sm: md:text-xl text-gray-700">
               The use of clear patterns helps in creating a cohesive flow
               between different sections of the thesis. By following a set
               structure, you can ensure that each chapter and section is aligned
@@ -132,7 +132,7 @@ export default function Patten() {
               understand and follow for readers.
             </p>
           </div>
-          <div className="mt-8 p-6 bg-white rounded-lg shadow-xl text-justify">
+          <div className="mt-8 p-6 bg-white rounded-lg shadow-xl">
             <p className="mt-4 text-xl sm: md:text-xl text-gray-700 ">
               These research patterns also enhance the clarity and rigor of your
               methodology. By adhering to established patterns, you reduce the

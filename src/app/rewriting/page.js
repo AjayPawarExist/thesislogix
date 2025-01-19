@@ -30,12 +30,12 @@ export default function Aicontent() {
         </div>
 
         {/* Main Content Section */}
-        <section className="mt-8 p-6 bg-white rounded-lg shadow-lg text-justify ">
+        <section className="mt-8 p-6 bg-white rounded-lg shadow-lg ">
           <section className="py-8 px-6 sm:px-6 md:px-8 lg:px-12 ">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-6">
               How AI Content Rewriting Helps
             </h2>
-            <p className="text-xl sm:text-xl md:text-2xl text-gray-700 mb-4">
+            <p className="lg:text-lg text-gray-700 mt-4">
               Thesislogix's AI content rewriting feature leverages the power of
               artificial intelligence to refine, improve, and rewrite your
               thesis content. This ensures clarity, coherence, and enhances the
@@ -106,20 +106,21 @@ export default function Aicontent() {
           </div>
 
           {/* Help AI Section with Box Shadow */}
-          <section className="mt-8 p-6 bg-white rounded-lg shadow-lg text-justify">
+          <section className="mt-8 p-6 bg-white rounded-lg shadow-lg ">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
               Why use AI for content rewriting?
             </h3>
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
-              AI content rewriting is not just about improving your grammar.
-              It’s a tool that enhances the overall clarity, structure, and
-              quality of your thesis. With AI-driven tools, you can ensure your
-              writing flows smoothly while maintaining academic rigor. AI
-              analyzes your text and suggests improvements in sentence
-              structure, tone, and clarity, making your research easier to
-              understand for your readers.
-            </p>
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
+            <p className=" lg:text-lg text-gray-700 mt-4">
+                AI content rewriting isn't just about fixing grammar—it's a powerful tool
+                for improving the clarity, structure, and overall quality of your thesis.
+                By using AI-driven tools, you can ensure your writing flows seamlessly
+                while upholding academic standards. These tools analyze your text and
+                provide suggestions to enhance sentence structure, tone, and clarity,
+                making your research more accessible and easier to understand for your
+                readers.
+              </p>
+
+            <p className=" lg:text-lg text-gray-700 mt-4">
               One of the key benefits of using AI for content rewriting is its
               ability to identify and eliminate redundancies, ensuring that your
               writing is concise and to the point. It also helps in transforming
@@ -127,7 +128,7 @@ export default function Aicontent() {
               essential for making your thesis more accessible to a broader
               audience.
             </p>
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
+            <p  className=" lg:text-lg text-gray-700 mt-4">
               Additionally, AI tools can provide suggestions on the overall
               structure and organization of your thesis. By analyzing the
               content's flow, AI helps you reorder sections or paragraphs for
@@ -137,15 +138,15 @@ export default function Aicontent() {
               readability of your research.
             </p>
           </section>
-          <section className="mt-8 p-6 bg-white rounded-lg shadow-2xl text-justify">
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
+          <section className="mt-8 p-6 bg-white rounded-lg shadow-2xl">
+            <p  className=" lg:text-lg text-gray-700 mt-4">
               AI also helps you maintain consistency in writing style and
               terminology throughout your thesis, making it more professional
               and polished. It ensures that specific terms or concepts are used
               consistently, eliminating any potential confusion or
               inconsistencies.
             </p>
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
+            <p className=" lg:text-lg text-gray-700 mt-4">
               Finally, AI content rewriting saves you time. Instead of manually
               reviewing your entire thesis for clarity, grammar, and structure,
               you can focus on refining your ideas and analysis while AI handles
@@ -153,7 +154,7 @@ export default function Aicontent() {
               submit a thesis that is well-organized, clear, and error-free in
               less time.
             </p>
-            <p className="mt-4 text-xl sm:text-xl md:text-2xl text-gray-700">
+            <p className=" lg:text-lg text-gray-700 mt-4">
               With Thesislogix's AI content rewriting, your thesis becomes more
               than just a collection of ideas. It transforms into a polished,
               well-organized, and impactful piece of work that resonates with

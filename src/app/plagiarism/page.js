@@ -21,10 +21,10 @@ export default function Plagiarism() {
       </div>
 
       <div className="px-6 sm:px-10 lg:px-24 py-8">
-        <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 text-justify">
-          <h1 className="text-2xl py-2 font-semibold">Plagiarism services</h1>
-          <p className="text-base md:text-lg leading-relaxed">
-            {" "}
+        <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12">
+          <h1 className="text-2xl py-2 font-semibold whitespace-nowrap sm:text-2xl">Plagiarism services</h1>
+          <p className="text-gray-700 md:text-lg leading-relaxed ">
+          
             Thesislogix plagiarism services focus on ensuring originality and
             integrity in academic work. Utilizing advanced plagiarism detection
             software, they compare manuscripts against extensive databases,
@@ -111,12 +111,12 @@ export default function Plagiarism() {
         </div>
       </div>
 
-      <div className="px-6 sm:px-10 lg:px-24 py-8 text-justify">
+      <div className="px-6 sm:px-10 lg:px-24 py-8 ">
         <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12">
-          <h1 className="text-2xl py-2 font-semibold">
+          <h1 className="text-2xl py-2 font-semibold ">
             Overcome The Plagiarized Content
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 md:text-lg leading-relaxed">
             {" "}
             Overcome The Plagiarized ContentCould anything be worse for a Pg and
             PhD student other than getting the thesis rejected? And how would
@@ -127,8 +127,8 @@ export default function Plagiarism() {
             same thing that you have been thinking to do in your thesis,student
             unknowingly falls into the trap of plagiarism.
           </p>
-          <h1 className="text-xl py-2 font-semibold">Best Use Of Software</h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <h1 className="text-xl py-2 font-semibold mt-7 sm:text-2xl">Best Use Of Software</h1>
+          <p className="text-gray-700 md:text-lg leading-relaxed">
             Best Use Of SoftwareThesis or Research Writing’ already takes a toll
             on your lifestyle. Opting for “Plagiarism Check & Removal Services”
             will help you to stay away from all these difficulties. ‘Writing
@@ -138,10 +138,10 @@ export default function Plagiarism() {
             delivered by us has no traces of plagiarism. We also provide you the
             Turnitin report.
           </p>
-          <h1 className="text-xl py-2 font-semibold">
+          <h1 className="text-xl py-2 font-semibold mt-7 sm:text-2xl">
             Our Professional Writers
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 md:text-lg leading-relaxed ">
             Our team of professionals reviews the paper meticulously & removes
             plagiarized content by paraphrasing or rewriting them in their own
             words. The entire process is exhaustive where we conduct multiple
