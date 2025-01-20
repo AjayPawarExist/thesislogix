@@ -19,17 +19,17 @@ function page() {
         </div>
 
         {/* Card Container */}
-        <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 py-6 text-justify">
+        <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 py-6">
           <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg p-6 sm:p-8 md:p-12">
             <h2 className="text-2xl font-bold">TOPIC MAKING SERVICE</h2>
-            <p className="mt-6 text-base md:text-lg leading-relaxed">
+            <p className="mt-6 text-base md:text-lg leading-relaxed text-justify">
               Choosing a relevant and unique topic according to your stream is the first step towards success. Our PG and PhD
               team discuss with scholars about the recent trends in society then come up with an effective topic.
               Some factors we consider before suggesting a topic are:
             </p>
 
             {/* Factors List */}
-            <ul className="list-disc pl-6 mt-4 space-y-2">
+            <ul className="list-disc pl-6 mt-4 space-y-2 text-justify">
               <li>Interest of the researcher and their area</li>
               <li>Exclusivity of the topic to make the project unique</li>
               <li>Scope of exploring the topic and conducting original research</li>
@@ -41,7 +41,7 @@ function page() {
           </div>
 
           {/* Additional Info Section */}
-          <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 mb-20">
+          <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 mb-20 text-justify">
             <p className="text-base md:text-lg leading-relaxed">
               The researcher should have high-quality knowledge in the selected area. Our PG and PhD thesis topic assistance
               service can be availed separately or combined with our thesis writing or synopsis writing services. We
