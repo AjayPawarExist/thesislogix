@@ -7,10 +7,10 @@ export default function page() {
 
       {/* synopsis/research outline section  */}
       <div className="flex justify-center overflow-hidden  ">
-        <div className="h-[270px] w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
-          <span className="text-4xl lg:text-5xl text-white px-4">
+        <div className=" w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
+          <span className="text-2xl lg:text-5xl text-white px-4">
             SYNOPSIS/RESEARCH OUTLINE
-            <p className="text-lg md:text-xl text-white py-2">
+            <p className="text-md md:text-xl text-white py-2">
               Home &gt; Services &gt; Synopsis/Research Outline
             </p>
           </span>
@@ -19,7 +19,7 @@ export default function page() {
 
       {/* image of synopsis section  */}
       <div className='w-full flex justify-center pt-5'>
-        <Image src="/synopsis.jpg" alt="error" width={400} height={100} className='w-[70%] h-[400px]' />
+        <Image src="/synopsis.jpg" alt="error" width={400} height={100} className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]"/>
       </div>
 
       {/* content section  */}

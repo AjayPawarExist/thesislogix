@@ -10,21 +10,25 @@ export default function Plagiarism() {
       <div className="flex flex-center">
         {/* <!-- plagiarism services--> */}
 
-        <div className="bg-gradient-to-r from-blue-950 to-gray-600 h-[300px] w-full text-center py-20 ">
-          <span className="text-5xl text-white">Plagiarism Services</span>
-          <p className="text-[23px] py-2 text-white">Plagiarism services</p>
+        <div className="bg-gradient-to-r from-blue-950 to-gray-600 w-full text-center py-20 ">
+          <span className="text-2xl sm:text-5xl text-white">PLAGIARISM SERVICE </span>
+          <p className="text-md sm:text-xl py-2 text-white">home &gt; Services &gt; Plagiarism Service</p>
         </div>
       </div>
 
-      <div className="flex justify-center px-2">
-        <Image src="/thesis.jpg" alt="Hero Image" width={1100} height={300} />
+      {/* image section of AI content rewriting*/}
+
+      <div className='w-full flex justify-center pt-5'>
+        <Image src="/plagiarism.jpg" alt="error" width={400} height={100} className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]" />
       </div>
+
+
 
       <div className="px-6 sm:px-10 lg:px-24 py-8">
         <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12">
           <h1 className="text-2xl py-2 font-semibold whitespace-nowrap sm:text-2xl">Plagiarism services</h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed ">
-          
+          <p className="text-gray-700 leading-relaxed ">
+
             Thesislogix plagiarism services focus on ensuring originality and
             integrity in academic work. Utilizing advanced plagiarism detection
             software, they compare manuscripts against extensive databases,
@@ -51,7 +55,7 @@ export default function Plagiarism() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             The Cost-effective Plagiarism Removal Services
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Scholars who wish to succeed academically without compromising
             quality may get a complete solution at an affordable price with our
             affordable plagiarism check and removal service. It seems like
@@ -69,7 +73,7 @@ export default function Plagiarism() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             Advanced Detection Algorithms
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Our top plagiarism detection services employ complex algorithms to
             analyze your work and compare it to a vast document database. This
             guarantees that even the most subtle instances of plagiarism are
@@ -85,7 +89,7 @@ export default function Plagiarism() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             Saving Time and Effort
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Manually checking for plagiarism is time-consuming and often
             ineffective. Automated plagiarism check services streamline the
             process, saving you valuable time and ensuring accuracy. As a
@@ -102,7 +106,7 @@ export default function Plagiarism() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             Plagiarism-Free Content for your Thesis
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Our plagiarism check and removal services ensure that your work is
             original, helping you avoid the serious consequences of academic
             dishonesty. As a result, our services help users understand proper
@@ -116,8 +120,8 @@ export default function Plagiarism() {
           <h1 className="text-2xl py-2 font-semibold ">
             Overcome The Plagiarized Content
           </h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed">
-            {" "}
+          <p className="text-gray-700 leading-relaxed">
+
             Overcome The Plagiarized ContentCould anything be worse for a Pg and
             PhD student other than getting the thesis rejected? And how would
             you feel when the reason is the plagiarized content, which is
@@ -128,7 +132,7 @@ export default function Plagiarism() {
             unknowingly falls into the trap of plagiarism.
           </p>
           <h1 className="text-xl py-2 font-semibold mt-7 sm:text-2xl">Best Use Of Software</h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed">
+          <p className="text-gray-700 leading-relaxed">
             Best Use Of SoftwareThesis or Research Writing’ already takes a toll
             on your lifestyle. Opting for “Plagiarism Check & Removal Services”
             will help you to stay away from all these difficulties. ‘Writing
@@ -141,7 +145,7 @@ export default function Plagiarism() {
           <h1 className="text-xl py-2 font-semibold mt-7 sm:text-2xl">
             Our Professional Writers
           </h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed ">
+          <p className="text-gray-700 leading-relaxed ">
             Our team of professionals reviews the paper meticulously & removes
             plagiarized content by paraphrasing or rewriting them in their own
             words. The entire process is exhaustive where we conduct multiple

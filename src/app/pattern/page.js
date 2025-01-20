@@ -23,12 +23,11 @@ export default function Patten() {
         {/* Hero Section */}
         <div className="bg-gradient-to-b from-blue-950 to-gray-600 w-full text-center py-20">
           <div className="text-center">
-            <h1 className="text-3xl text-white sm:text-4xl md:text-5xl font-semibold leading-tight tracking-wide">
-              Patterns in Thesislogix
+            <h1 className="text-2xl text-white sm:text-5xl font-semibold leading-tight tracking-wide">
+              PATTERN SERVICE
             </h1>
-            <p className="mt-4 text-white  sm:text-xl md:text-2xl font-light">
-              Explore the key patterns and methodologies that Thesislogix
-              employs to enhance thesis writing and research structuring.
+            <p className="mt-4 text-white text-md sm:text-xl font-light">
+              home &gt; Services &gt; Pattern Service
             </p>
           </div>
         </div>
@@ -54,7 +53,7 @@ export default function Patten() {
               <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
                 Introduction Pattern
               </h1>
-              <p className="text-black text-center px-2">
+              <p className="text-gray-500 text-center px-2">
                 A strong introduction is essential for setting the stage for
                 your research. This pattern ensures a well-organized and
                 engaging start to your thesis, allowing your reader to
@@ -70,7 +69,7 @@ export default function Patten() {
               <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
                 Literature Review Methodology
               </h1>
-              <p className="text-black text-center px-2">
+              <p className="text-gray-500 text-center px-2">
                 A well-researched literature review strengthens the foundation
                 of your research. This pattern helps structure your review to
                 highlight relevant studies, gaps in the literature, and identify
@@ -86,7 +85,7 @@ export default function Patten() {
               <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
                 Research Design & Methodology Pattern
               </h1>
-              <p className="text-black text-center px-2">
+              <p className="text-gray-500 text-center px-2">
                 A solid methodology is crucial for achieving valid and reliable
                 results. This pattern helps you develop a research design that
                 aligns with your research questions, ensuring that the methods
@@ -102,7 +101,7 @@ export default function Patten() {
               <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
                 Data Analysis Techniques
               </h1>
-              <p className="text-black text-center px-2">
+              <p className="text-gray-500 text-center px-2">
                 The right data analysis techniques are crucial for interpreting
                 your research data effectively. This pattern guides you through
                 various techniques for analyzing both qualitative and
@@ -116,15 +115,15 @@ export default function Patten() {
           <h3 className="text-xl text-center sm:text-2xl md:text-3xl font-semibold text-gray-800  mt-10">
             How It Helps?
           </h3>
-          <div className=" p-6 bg-white rounded-lg shadow-xl ">
-            <p className="mt-4 text-xl  md:text-xl text-gray-700">
+          <div className=" p-6 bg-gray-100 rounded-lg shadow-xl ">
+            <p className="mt-4  text-slate-600">
               By following these patterns, students and researchers can ensure
               that their thesis is well-organized, consistent, and aligned with
               academic standards. These patterns guide the researcher in
               producing a structured, coherent, and well-supported thesis.
             </p>
 
-            <p className="mt-4 text-xl sm: md:text-xl text-gray-700">
+            <p className="mt-4  text-gray-600">
               The use of clear patterns helps in creating a cohesive flow
               between different sections of the thesis. By following a set
               structure, you can ensure that each chapter and section is aligned
@@ -132,8 +131,8 @@ export default function Patten() {
               understand and follow for readers.
             </p>
           </div>
-          <div className="mt-8 p-6 bg-white rounded-lg shadow-xl">
-            <p className="mt-4 text-xl sm: md:text-xl text-gray-700 ">
+          <div className="mt-8 p-6 bg-gray-100 rounded-lg shadow-xl">
+            <p className="mt-4  text-gray-600 ">
               These research patterns also enhance the clarity and rigor of your
               methodology. By adhering to established patterns, you reduce the
               chances of inconsistencies and errors, ensuring that your research
@@ -141,7 +140,7 @@ export default function Patten() {
               replicate by others.
             </p>
 
-            <p className="mt-4 text-xl sm: md:text-xl text-gray-700">
+            <p className="mt-4  text-gray-600">
               Furthermore, these patterns allow for better communication of your
               findings and analysis. By following the structured approach
               provided by Thesislogix, your conclusions will naturally flow from
@@ -149,7 +148,7 @@ export default function Patten() {
               your final results.
             </p>
 
-            <p className="mt-4 text-xl sm: md:text-xl text-gray-700">
+            <p className="mt-4  text-gray-600">
               Whether you are a student or a seasoned researcher, these patterns
               can save time and effort by providing a framework that ensures no
               aspect of your thesis is overlooked. You'll be able to focus on

@@ -6,18 +6,19 @@ export default function page() {
 
       {/* Questionnaire section start  */}
       <div className="flex justify-center ">
-        <div className="h-[270px] w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
-          <span className="text-4xl lg:text-5xl text-white">
-            Questionnaire
-            <p className="text-lg md:text-xl text-white py-2">
+        <div className="w-full bg-gradient-to-b from-blue-950 to-gray-600 text-center py-20">
+          <span className="text-2xl lg:text-5xl text-white">
+            QUESTIONNAIRE
+            <p className="text-md md:text-xl text-white py-2">
               Home &gt; Services &gt; Questionnaire
             </p>
           </span>
         </div>
       </div>
+      
       {/* image of questionnaire  */}
       <div className='w-full flex justify-center pt-5'>
-        <Image src="/Questionnaire.jpg" alt="error" width={400} height={100} className='w-[70%] h-[400px]' />
+        <Image src="/questionnaire.jpg" alt="error" width={400} height={100} className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]" />
       </div>
 
       {/* content section start  */}

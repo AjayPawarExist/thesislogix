@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 export default function Bookwriting() {
   return (
@@ -7,13 +8,18 @@ export default function Bookwriting() {
       <div className="flex flex-center">
         {/* <!-- Hero Section --> */}
         <div className="bg-gradient-to-b from-blue-950 to-gray-600 w-full text-center py-20">
-          <h1 className="text-5xl text-white">
-            Book Writing and Publishing Services
+          <h1 className="text-2xl sm:text-5xl text-white">
+            BOOK PUBLISHING
           </h1>
-          <p className="text-xl text-white py-2">
-            Home Book Writing and Publishing Services
+          <p className="text-md sm:text-xl text-white py-2">
+            home &gt; Services &gt; Book Publishing
           </p>
         </div>
+      </div>
+
+      {/* image section of book publishing  */}
+      <div className='w-full flex justify-center pt-5'>
+        <Image src="/book.jpg" alt="error" width={400} height={100} className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]" />
       </div>
 
       {/* <!-- Content Section --> */}
@@ -21,17 +27,17 @@ export default function Bookwriting() {
         {/* <!-- Service Description --> */}
         <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12 text-justify">
           <h1 className="text-2xl py-2 font-semibold">
-            Book Writing & Publication Service
+            Book Publishing Service
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
-            Are you a Pg and PhD scholar looking to transform your dissertation
+          <p className="text-base  leading-relaxed">
+            Are you a PG and PhD scholar looking to transform your dissertation
             into a publishable book? Our specialized “book writing and
             publishing services” for Pg and PhD scholars are designed to help
             you bring your academic research to a broader audience. From
             manuscript development to publication, we offer comprehensive
             support tailored to your scholarly needs.
           </p>
-          <p className="text-base md:text-lg leading-relaxed py-4">
+          <p className="text-base leading-relaxed py-4">
             Ensuring your manuscript is polished and error-free is crucial for
             academic credibility. Consequently, our editing services include
             developmental editing to refine your book’s structure and content,
@@ -46,7 +52,7 @@ export default function Bookwriting() {
           <h1 className="text-2xl pt-2 font-semibold">
             Cost Effective Services
           </h1>
-          <p className="text-base md:text-lg leading-relaxed">
+          <p className="text-base leading-relaxed">
             From the very beginning of preparation through the release of your
             book, we’ve got you covered. We’ll talk to you in person and do some
             research on your book proposal ideas. After research, we’ll begin
@@ -56,7 +62,7 @@ export default function Bookwriting() {
           </p>
 
           <h1 className="text-2xl pt-4 font-semibold">Best Use Of Software</h1>
-          <p className="text-base md:text-lg leading-relaxed ">
+          <p className="text-base leading-relaxed ">
             ‘Thesis or Research Writing’ can be exhausting. Opting for
             “Plagiarism Check & Removal Services” helps you avoid these
             difficulties. We use tools like Turnitin to check and remove
@@ -65,7 +71,7 @@ export default function Bookwriting() {
           </p>
 
           <h1 className="text-2xl pt-4 font-semibold ">Attractive Design</h1>
-          <p className="text-base md:text-lg leading-relaxed ">
+          <p className="text-base leading-relaxed ">
             We provide a print-on-demand publishing model. Our services include
             ISBN assignment, online advertising via Google Books and Google
             Play, free author copies, interior layout design, creative cover

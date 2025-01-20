@@ -2,29 +2,35 @@ import { TbHandMove } from "react-icons/tb";
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { FaHandshake } from "react-icons/fa6";
 import { TiThumbsOk } from "react-icons/ti";
+import Image from 'next/image'
 
 export default function Paperpublication() {
   return (
     <>
       <div className="flex flex-center ">
         <div className=" bg-gradient-to-b from-blue-950 to-gray-600 w-full text-center py-20">
-          <span className="text-5xl text-white">
-            Paper Publication payment{" "}
+          <span className="text-2xl sm:text-5xl text-white">
+            PAPER PUBLICATION
           </span>
-          <p className=" text-xl text-white py-2">
-            home Services Research Paper Writing Services
+          <p className=" text-md sm:text-xl text-white py-2">
+            home &gt; Services &gt; Paper Publication
           </p>
         </div>
+      </div>
+
+      {/* image of paper publishing */}
+      <div className='w-full flex justify-center pt-5'>
+        <Image src="/publication.jpg" alt="error" width={400} height={100} className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]" />
       </div>
 
       <div className="px-6 sm:px-10 lg:px-24 py-6">
         <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12">
           <h1 className="text-2xl py-2 font-semibold">
-            Pg and Phd Research Paper Writing Services & Publication Support
+            PG and Phd Research Paper Writing Services & Publication Support
           </h1>
-          <p className=" md:text-lg leading-relaxed text-gray-700">
+          <p className="  leading-relaxed text-gray-700">
             Whether you are looking for publication in a Scopus, SCI Indexed or
-            ABDC journal, our team of expert researchers work with you and
+            ABDC journal, our team of researchers work with you and
             develop a manuscript which may be accepted for publication on the
             merit of its research. Under the research paper writing service, we
             offer review type research paper development, systematic literature
@@ -56,7 +62,7 @@ export default function Paperpublication() {
           <h1 className="text-xl py-2 font-semibold">
             Journal Selection and Manuscript Submission
           </h1>
-          <p className=" md:text-lg leading-relaxed text-gray-700">
+          <p className=" leading-relaxed text-gray-700">
             One of the cornerstones of successful publication is journal
             selection, it requires acumen and insight. Our experts, well-versed
             in the academic landscape of India and international journal
@@ -79,7 +85,7 @@ export default function Paperpublication() {
             <h1 className="text-black text-3xl font-bold text-center py-4">
               Ensuring Journal Relevance And Alignment
             </h1>
-            <p className="text-black text-center pb-4 px-2 ">
+            <p className="text-gray-500 text-center pb-4 px-2 ">
               Solution: Our first step is meticulous journal selection. We
               collaborate with you to identify journals that resonate with the
               scope of your research, ensuring your work seamlessly aligns with
@@ -97,7 +103,7 @@ export default function Paperpublication() {
             <h1 className="text-black text-3xl font-bold text-center py-4">
               Enhancing Writing Precision And Organization
             </h1>
-            <p className="text-black text-center px-2">
+            <p className="text-gray-500 text-center px-2">
               Solution: Our skilled editorial team meticulously refines your
               manuscript, addressing grammatical nuances, spelling errors, and
               enhancing overall clarity. With a focus on structural integrity,
@@ -114,7 +120,7 @@ export default function Paperpublication() {
             <h1 className="text-black text-3xl font-bold text-center py-4">
               Novelty and Significance
             </h1>
-            <p className="text-black text-center px-4">
+            <p className="text-gray-500 text-center px-4">
               Solution: Collaboration is key to ensuring your work is innovative
               and impactful. We engage in comprehensive discussions,
               brainstorming sessions, and literature reviews to identify gaps
@@ -133,7 +139,7 @@ export default function Paperpublication() {
             <h1 className="text-black text-3xl font-bold text-center py-4">
               Unwavering Quality
             </h1>
-            <p className="text-black text-center px-4">
+            <p className="text-gray-500 text-center px-4">
               Solution: Quality is our hallmark. Our experts meticulously review
               every facet of your paper, from originality to presentation. By
               adhering to rigorous standards of excellence, we ensure your
@@ -148,7 +154,7 @@ export default function Paperpublication() {
           <h1 className="text-xl py-2 font-semibold">
             Research Paper Writing Service : Research and Write-ups
           </h1>
-          <p className=" md:text-lg leading-relaxed text-gray-700">
+          <p className="leading-relaxed text-gray-700">
             A research paper, published in a reputed journal paves the surest
             way to academic as well as professional success for a research
             scholar. However, this path is not easy to progress, as it is strewn
@@ -163,47 +169,47 @@ export default function Paperpublication() {
           <ul className="py-4">
             <li className="py-2 ">
               <b>Curating Target Journals for Your Field of Study</b> : <span className="text-gray-700">Drawing
-              from our profound understanding of diverse fields of study, we
-              meticulously curate a bespoke list of target journals that align
-              with your research's thematic resonance. We place special emphasis
-              on identifying prestigious impact factor journals, offering you a
-              comprehensive panorama of platforms that can amplify the impact of
-              your research.
+                from our profound understanding of diverse fields of study, we
+                meticulously curate a bespoke list of target journals that align
+                with your research's thematic resonance. We place special emphasis
+                on identifying prestigious impact factor journals, offering you a
+                comprehensive panorama of platforms that can amplify the impact of
+                your research.
               </span>
             </li>
             <li className="py-2">
               <b>Navigating Journal Guidelines</b> :<span className="text-gray-700"> Our meticulous team delves
-              into the labyrinthine guidelines of your chosen journals, ensuring
-              that each intricate requirement is diligently met. Through our
-              editorial service, we guide your manuscript through the labyrinth,
-              ensuring that every 'i' is dotted and every 't' is crossed.
+                into the labyrinthine guidelines of your chosen journals, ensuring
+                that each intricate requirement is diligently met. Through our
+                editorial service, we guide your manuscript through the labyrinth,
+                ensuring that every 'i' is dotted and every 't' is crossed.
               </span>
             </li>
             <li className="py-2">
               {" "}
               <b>Timely Submission </b>: <span className="text-gray-700">Our seasoned experts, attuned to the
-              needs of different journal publications, strategically help you
-              plan your research work. With meticulous precision, we assist you
-              in charting a course that culminates in the timely submission of
-              your paper, maximizing the chances of your research being
-              spotlighted at the opportune moment.
+                needs of different journal publications, strategically help you
+                plan your research work. With meticulous precision, we assist you
+                in charting a course that culminates in the timely submission of
+                your paper, maximizing the chances of your research being
+                spotlighted at the opportune moment.
               </span>
             </li>
             <li className="py-2">
               {" "}
               <b>Impressive Cover Letters and Abstracts </b>:<span className="text-gray-700"> Our skilled
-              editors work alongside you to draft a cover letter that
-              encapsulates the essence of your research, while the abstract
-              serves as a perfect glimpse into your paper's depth.
+                editors work alongside you to draft a cover letter that
+                encapsulates the essence of your research, while the abstract
+                serves as a perfect glimpse into your paper's depth.
               </span>
             </li>
             <li className="py-2">
               {" "}
               <b>Revisions </b>:<span className="text-gray-700"> The journey toward publication is not always
-              linear, and sometimes, revisions are part of the process. In the
-              event that your paper returns with comments for refinement, our
-              adept team assists you in revising your manuscript according to
-              the editors' suggestions.
+                linear, and sometimes, revisions are part of the process. In the
+                event that your paper returns with comments for refinement, our
+                adept team assists you in revising your manuscript according to
+                the editors' suggestions.
               </span>
             </li>
           </ul>

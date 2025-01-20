@@ -8,17 +8,17 @@ export default function Implementation() {
     <>
       <div className="flex flex-center">
         <div className=" bg-gradient-to-b from-blue-950 to-gray-600 w-full text-center py-20">
-          <span className="text-5xl text-white">Implementation services</span>
-          <p className=" text-xl text-white py-2">Implementation services</p>
+          <span className="text-2xl sm:text-5xl text-white">IMPLEMENTATION SERVICE</span>
+          <p className=" text-md sm:text-xl text-white py-2">home &gt; Services &gt; Implementation Service</p>
         </div>
       </div>
 
       <div className="px-6 sm:px-10 lg:px-24 py-6">
         <div className="bg-gray-100 shadow-lg shadow-blue-200 rounded-lg mt-8 p-6 sm:p-8 md:p-12">
           <h1 className="text-2xl py-2 font-semibold">
-            WHAT ARE IMPLEMENTATION SERVICES?
+            What are Implementation Service?
           </h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed ">
+          <p className="text-gray-700 leading-relaxed ">
             Implementation services are provided by both software companies and
             IT consultancies to help customers realize value from their product
             purchase. The implementation team will have responsibility for
@@ -28,7 +28,7 @@ export default function Implementation() {
             methodology needed.
           </p>
 
-          <p className="text-gray-700 md:text-lg leading-relaxed mt-4">
+          <p className="text-gray-700 leading-relaxed mt-2">
             Companies implementing less complex products will often focus on
             having rapid deployment times, ideally with self-service elements to
             the onboarding phase to help scale. As the complexity of the
@@ -50,7 +50,7 @@ export default function Implementation() {
           <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
             PLAN AHEAD
           </h1>
-          <p className="text-black text-center pb-4 px-2">
+          <p className="text-gray-500 text-center pb-4 px-2">
             Demand forecasting is a critical services capability where you have
             a clear view of demand for projects and resources. The best teams
             can turn a 1-dimensional pipeline into a 3-dimensional view of FTE
@@ -65,7 +65,7 @@ export default function Implementation() {
           <h1 className="text-black text-3xl font-bold text-center pt-4 py-4">
             SALES ALIGNMENT
           </h1>
-          <p className="text-black text-center px-2">
+          <p className="text-gray-500 text-center px-2">
             The partnership between sales and services to ensure that there is
             an effective handover is table stakes. To advance your delivery
             effectiveness, you need to ensure that services are sold correctly
@@ -80,7 +80,7 @@ export default function Implementation() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             COMMUNICATE ONBOARDING PLAN
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Clear & consistent project plans are the cornerstone of effective
             project management. Your customer may not have a full time project
             manager and is having to coordinate a mix of stakeholders on their
@@ -97,7 +97,7 @@ export default function Implementation() {
           <h1 className="text-black text-3xl font-bold text-center py-4">
             CONTROL OVERRUN
           </h1>
-          <p className="text-black text-center px-4">
+          <p className="text-gray-500 text-center px-4">
             Project managers need to be setup for success with clear policy on
             managing budget and timelines. If you are selling fixed price
             implementations, it is easy to fall into the trap of allowing scope
@@ -113,7 +113,7 @@ export default function Implementation() {
           <h1 className="text-2xl py-2 font-semibold">
             WHY IS IMPLEMENTATION IMPORTANT?
           </h1>
-          <p className="text-gray-700 md:text-lg leading-relaxed">
+          <p className="text-gray-700 leading-relaxed">
             Failed implementations lead to churn - Gartner research found $5b in
             annual churn due to poor onboarding. Speed to value should be the
             guiding principle of your delivery methodology. The quality and
@@ -121,7 +121,7 @@ export default function Implementation() {
             relationship where first impressions matter.
           </p>
 
-          <p className="text-gray-700 md:text-lg leading-relaxed">
+          <p className="text-gray-700 leading-relaxed">
             As Saood Shah, former VP of Professional Services at Gainsight,
             states “Optimizing for time-to-value had a significant impact on any
             services organization that I’ve been a part of with the
@@ -135,7 +135,7 @@ export default function Implementation() {
             HOW DELIVERY TIMES IMPACT REVENUE
           </h1>
           <p className="text-gray-700">
-            he best professional services team understands the financial impact
+            He best professional services team understands the financial impact
             of faster implementations. Accounting standards mean that companies
             can increasingly only recognize revenue part way through an
             implementation or at go-live. In telephony technology projects, the
@@ -145,7 +145,7 @@ export default function Implementation() {
             in delivery.
           </p>
 
-          <p className="text-gray-700 md:text-lg leading-relaxed">
+          <p className="text-gray-700 leading-relaxed">
             Companies that can improve the consistency and velocity of delivery
             will not only drive better retention rates but also have a
             significantimpact on the financial performance of the company.

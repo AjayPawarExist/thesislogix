@@ -5,22 +5,34 @@ export default function page() {
     <>
       <div className='flex flex-center '>
         {/* <!-- Thesis Analysis Section --> */}
-        <div className="bg-gradient-to-r from-blue-950 to-gray-600 h-[300px] w-full text-center py-20">
-          <span className="text-4xl lg:text-5xl text-white">
+        <div className="bg-gradient-to-r from-blue-950 to-gray-600 w-full text-center py-20">
+          <span className="text-2xl lg:text-5xl text-white">
             THESIS ANALYSIS AND SUMMARY
           </span>
-          <p className="text-lg md:text-xl text-white py-2">
+          <p className="text-md md:text-xl text-white py-2">
             Home &gt; Services &gt; Thesis Analysis and Summary
           </p>
         </div>
       </div>
+
       {/* image section of analysis/summary */}
-      <div className='w-full flex justify-center pt-5'>
+      {/* <div className='w-full flex justify-center pt-5'>
         <Image src="/analysis.jpg" alt="error" width={400} height={100} className='w-[70%] h-[400px]' />
+      </div> */}
+      <div className="flex justify-center pt-5">
+        <Image
+          src="/analysis.jpg"
+          alt="Data analysis illustration"
+          width={400}
+          height={100}
+          className="w-[70%] h-auto max-h-[400px] sm:w-full md:w-[80%]"
+        />
       </div>
+
       {/* <!-- Main Content Section --> */}
       <div className="px-6 sm:px-12 md:px-24 py-6 text-justify">
         <div className="h-auto w-full  bg-gray-100 shadow-lg shadow-blue-200 px-10 py-5 rounded-lg">
+
           {/* <!-- Heading --> */}
           <h1 className="font-bold text-2xl pb-4">THESIS ANALYSIS AND SUMMARY</h1>
 
