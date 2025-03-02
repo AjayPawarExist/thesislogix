@@ -24,8 +24,15 @@ export default function ContactPage() {
                         {/* Email */}
                         <div className="flex items-center gap-3 text-gray-500 hover:text-blue-800">
                             <MdMailOutline className=" text-xl" />
-                            <a href="mailto:editor@thesislogix.in" className="hover:underline">
-                                editor@thesislogix.in
+                            <a href="mailto:enquiry@thesislogix.in" className="hover:underline">
+                                enquiry@thesislogix.in
+                            </a>
+                        </div>
+
+                         <div className="flex items-center gap-3 text-gray-500 hover:text-blue-800">
+                            <MdMailOutline className=" text-xl" />
+                            <a href="mailto:infothesislogix@gmail.com" className="hover:underline">
+                                infothesislogix@gmail.com
                             </a>
                         </div>
 
