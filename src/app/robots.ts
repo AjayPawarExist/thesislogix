@@ -5,7 +5,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/_not-found',
     },
     sitemap: 'https://thesislogix.com/sitemap.xml',
   }
