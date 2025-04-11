@@ -3,6 +3,7 @@ import Navbaar from "./components/Navbaar";
 import Footer from "./components/Footer";
 import "./globals.css";
 import Whatsappicon from "./components/Whatsappicon";
+import SchemaMarkup from "./components/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -59,6 +60,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <SchemaMarkup />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
