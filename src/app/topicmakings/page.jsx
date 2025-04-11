@@ -45,7 +45,7 @@ function page() {
             <p className="text-base md:text-lg leading-relaxed">
               The researcher should have high-quality knowledge in the selected area. Our PG and PhD thesis topic assistance
               service can be availed separately or combined with our thesis writing or synopsis writing services. We
-              evaluate areas with significant research gaps to see if they align with the student's passion, available
+              evaluate areas with significant research gaps to see if they align with the student&apos;s passion, available
               resources, and capabilities. This ensures we suggest only the most relevant and contributory topics.
             </p>
           </div>

@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 
-export default function Home() {
+export default function Navbar() {
     
     const [Menuopen, setMenuopen] = useState(false);
 
@@ -27,11 +27,11 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-10">
                     <p className="flex gap-2 items-center text-sm">
                         <FaPhoneAlt className="text-sm" />
-                        CALL ANYTIME: +91 96918 15989
+                        CALL ANYTIME: <Link href="tel:+919691815989">+91 96918 15989</Link>
                     </p>
                     <p className="flex gap-2 items-center text-sm">
                         <IoMail />
-                        <span>info@thesislogix.in</span>
+                        <span><Link href="mailto:info@thesislogix.com">info@thesislogix.com</Link></span>
                     </p>
                 </div>
 

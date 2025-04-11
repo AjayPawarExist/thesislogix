@@ -59,7 +59,7 @@ export default function Plagiarism() {
             Scholars who wish to succeed academically without compromising
             quality may get a complete solution at an affordable price with our
             affordable plagiarism check and removal service. It seems like
-            you're referring to services related to plagiarism removal in the
+            you&apos;re referring to services related to plagiarism removal in the
             context of thesis writing, likely focusing on cost-effective
             options.
           </p>

@@ -151,7 +151,7 @@ export default function Patten() {
             <p className="mt-4  text-gray-600">
               Whether you are a student or a seasoned researcher, these patterns
               can save time and effort by providing a framework that ensures no
-              aspect of your thesis is overlooked. You'll be able to focus on
+              aspect of your thesis is overlooked. You&apos;ll be able to focus on
               refining your research content while the structure takes care of
               itself.
             </p>

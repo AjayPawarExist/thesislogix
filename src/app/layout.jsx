@@ -28,7 +28,6 @@ export const metadata = {
     "thesis proofreading",
   ],
   author: "ThesisLogix",
-  robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -51,7 +51,7 @@ export default function page() {
               Our mentors also guide researchers in justifying the tools that have been adopted for their research, helping them during their thesis defense sessions.
             </li>
             <li className="py-2">
-              Thesis writing is a critical process in a PG and PhD program. If you need specific assistance in analyzing and summarizing a thesis, feel free to share the title or a brief overview of the thesis, including its main argument, themes, or key sections you'd like to focus on.
+              Thesis writing is a critical process in a PG and PhD program. If you need specific assistance in analyzing and summarizing a thesis, feel free to share the title or a brief overview of the thesis, including its main argument, themes, or key sections you&apos;d like to focus on.
             </li>
           </ul>
         </div>

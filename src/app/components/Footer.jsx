@@ -1,5 +1,6 @@
 import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -22,10 +23,10 @@ export default function Footer() {
           <h1 className="font-semibold text-2xl">Contact Us</h1>
           <div>
             <p className="flex gap-2 mt-2">
-              <FaPhoneAlt className="mt-1" /> CALL Us: +91 96918 15989
+              <FaPhoneAlt className="mt-1" /> CALL Us: <Link href="tel:+919691815989">+91 96918 15989</Link>
             </p>
             <p className="flex gap-2 mt-3">
-              <IoMail className="mt-1" /> Email: info@thesislogix.in
+              <IoMail className="mt-1" /> Email: <Link href="mailto:info@thesislogix.com">info@thesislogix.com</Link>
             </p>
           </div>
         </div>

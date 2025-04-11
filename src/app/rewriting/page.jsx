@@ -42,7 +42,7 @@ export default function Aicontent() {
               How AI Content Rewriting Helps
             </h2>
             <p className="text-base md:text-xl text-gray-700 mt-4">
-              Thesislogix's AI content rewriting feature leverages the power of
+              Thesislogix&apos;s AI content rewriting feature leverages the power of
               artificial intelligence to refine, improve, and rewrite your
               thesis content. This ensures clarity, coherence, and enhances the
               overall quality of your research.
@@ -117,7 +117,7 @@ export default function Aicontent() {
               Why use AI for content rewriting?
             </h3>
             <p className=" text-gray-700 mt-4">
-              AI content rewriting isn't just about fixing grammar—it's a powerful tool
+              AI content rewriting isn&apos;t just about fixing grammar—it&apos;s a powerful tool
               for improving the clarity, structure, and overall quality of your thesis.
               By using AI-driven tools, you can ensure your writing flows seamlessly
               while upholding academic standards. These tools analyze your text and
@@ -137,7 +137,7 @@ export default function Aicontent() {
             <p className=" text-gray-700 mt-4">
               Additionally, AI tools can provide suggestions on the overall
               structure and organization of your thesis. By analyzing the
-              content's flow, AI helps you reorder sections or paragraphs for
+              content&apos;s flow, AI helps you reorder sections or paragraphs for
               better logical coherence, ensuring that your thesis presents a
               seamless narrative that guides the reader from one point to the
               next. This feature is especially helpful in improving the
@@ -161,7 +161,7 @@ export default function Aicontent() {
               less time.
             </p>
             <p className=" text-gray-700 mt-4">
-              With Thesislogix's AI content rewriting, your thesis becomes more
+              With Thesislogix&apos;s AI content rewriting, your thesis becomes more
               than just a collection of ideas. It transforms into a polished,
               well-organized, and impactful piece of work that resonates with
               your audience and meets academic expectations. Embrace the power
