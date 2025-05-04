@@ -7,14 +7,12 @@ import ProcessSection from "@/components/process-section";
 import ResearchServices from "@/components/research-services";
 import StatsSection from "@/components/stats-section";
 import TestimonialsSection from "@/components/testimonials-section";
-import TrustedBy from "@/components/trusted-by";
 
 
 export default function Home() {
   return (
     <div className="flex flex-col">
       <HeroSection />
-      <TrustedBy />
       <StatsSection />
       <ResearchServices />
       <ProcessSection />

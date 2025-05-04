@@ -2,18 +2,17 @@ export const siteConfig = {
     name: "ThesisLogix - Master Your Research Data",
     description:
       "Professional research assistance for PG and PhD scholars. We deliver precise analysis, reliable reports, and tailored mentoring for academic excellence.",
-    url: "https://thesislogix.com",
-    ogImage: "https://thesislogix.com/og-image.jpg",
+    url: "https://thesislogix.in",
+    ogImage: "https://thesislogix.in/og-image.jpg",
     links: {
-      twitter: "https://twitter.com/thesislogix",
-      facebook: "https://facebook.com/thesislogix",
-      linkedin: "https://linkedin.com/company/thesislogix",
-      instagram: "https://instagram.com/thesislogix",
+      youtube: "https://www.youtube.com/@thesislogix",
+      facebook: "https://www.facebook.com/thesislogix",
+      instagram: "https://www.instagram.com/thesis_logix?utm_source=qr&igsh=MWZ6a20yejFhMHhsZw%3D%3D",
     },
     contact: {
       phone: "+919691815989",
-      email: "info@thesislogix.com",
-      address: "ThesisLogix Office, Academic District, India",
+      email: "info@thesislogix.in",
+      address: "C-409, Sagar Landmark, Ayodhya Bypass Road, Bhopal, Madhya Pradesh - 462010",
     },
   }
   

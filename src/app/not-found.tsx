@@ -66,7 +66,7 @@ export default function NotFound() {
                 </Button>
               </Link>
 
-              <Link href="/#contact">
+              <Link href="/contact">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto group">
                   <Mail className="mr-2 h-4 w-4 group-hover:animate-pulse" />
                   Contact Support

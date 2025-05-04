@@ -89,7 +89,7 @@ export default function HeroSection() {
                 variant="outline"
                 className="border-blue-600 text-blue-700 hover:bg-blue-50 rounded-full px-8 py-6 text-base"
               >
-                <Link href="/aboutus">Learn More</Link>
+                <Link href="/about">Learn More</Link>
               </Button>
             </motion.div>
           </motion.div>

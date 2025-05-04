@@ -118,58 +118,41 @@ export default function AboutPage() {
     },
   ]
 
-  const teamMembers = [
-    {
-      name: "Dr. Rajesh Kumar",
-      role: "Research Director",
-      image: "/placeholder.svg?key=team-member-1&width=300&height=300",
-      bio: "Ph.D. in Data Science with 15+ years of experience guiding research scholars.",
-    },
-    {
-      name: "Dr. Priya Sharma",
-      role: "Senior Research Consultant",
-      image: "/placeholder.svg?key=team-member-2&width=300&height=300",
-      bio: "Specialist in qualitative research methodologies with expertise in social sciences.",
-    },
-    {
-      name: "Dr. Anand Patel",
-      role: "Statistical Analysis Expert",
-      image: "/placeholder.svg?key=team-member-3&width=300&height=300",
-      bio: "Expert in advanced statistical methods and research design with 12+ years of experience.",
-    },
-    {
-      name: "Dr. Meera Iyer",
-      role: "Academic Writing Specialist",
-      image: "/placeholder.svg?key=team-member-4&width=300&height=300",
-      bio: "Specialized in thesis structuring and academic writing across multiple disciplines.",
-    },
-  ]
-
   const milestones = [
     {
-      year: "2005",
+      year: "2014",
       title: "Foundation",
-      description: "ThesisLogix was established with a vision to support research scholars.",
-    },
-    {
-      year: "2010",
-      title: "Expansion",
-      description: "Expanded services to international clients and added specialized research domains.",
+      description: "ThesisLogix was established with a vision to support research scholars in their academic journey."
     },
     {
       year: "2015",
-      title: "Digital Transformation",
-      description: "Integrated advanced digital tools and platforms for enhanced research support.",
+      title: "PhD & Journal Services Launched",
+      description: "Started offering support for PhD thesis development, Scopus and SCI journal publications, gaining traction among scholars."
     },
     {
-      year: "2020",
-      title: "Research Excellence Center",
-      description: "Established a dedicated center for research excellence and innovation.",
+      year: "2017",
+      title: "Research Partnerships",
+      description: "Collaborated with experienced academicians and editors to broaden service quality and domain expertise."
+    },
+    {
+      year: "2019",
+      title: "Digital Transformation",
+      description: "Adopted advanced research tools, plagiarism detection systems, and project management platforms to streamline service delivery."
+    },
+    {
+      year: "2021",
+      title: "Global Outreach",
+      description: "Expanded our presence by serving clients across multiple countries and publishing in top-tier international journals."
     },
     {
       year: "2023",
-      title: "Global Recognition",
-      description: "Recognized as a leading research consultancy with clients across 50+ countries.",
+      title: "Recognized Excellence",
+      description: "Acknowledged by researchers from top Indian institutions like IITs, IIMs, and Central Universities for high-quality editorial and publication support."
+    },
+    {
+      year: "2024",
+      title: "Continued Commitment",
+      description: "Actively working with diverse Scopus, SCI, and Web of Science journals to support scholars worldwide."
     },
   ]
 
@@ -206,7 +189,7 @@ export default function AboutPage() {
               Empowering Research <span className="text-blue-700">Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-600">
-              Guiding scholars on their academic journey since 2005 with expertise, innovation, and dedication.
+              Guiding scholars on their academic journey since 2014 with expertise, innovation, and dedication.
             </p>
           </motion.div>
 
@@ -253,7 +236,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Stats Cards */}
-                <div className="grid grid-cols-2 gap-4 mt-8">
+                <div className="grid grid-cols-2 gap-4 mt-8 relative">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -294,7 +277,7 @@ export default function AboutPage() {
                 </p>
 
                 <p className="text-lg">
-                  Since 2005, our professional research consultants and writers have partnered with thousands of
+                  Since 2014, our professional research consultants and writers have partnered with thousands of
                   research candidates worldwide, helping them navigate the challenges of thesis writing with confidence.
                   Whether it&apos;s selecting the right research topic, drafting a flawless thesis, or perfecting your work
                   through meticulous proofreading and editing, ThesisLogix ensures that every detail is handled with
@@ -598,62 +581,6 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Our Team Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-2 md:px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center max-w-3xl mx-auto mb-16"
-          >
-            <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
-              Our Team
-            </span>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Meet Our Experts</h2>
-            <p className="text-lg text-slate-600">
-              Our team of experienced professionals is dedicated to your academic success.
-            </p>
-          </motion.div>
-
-          <motion.div
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-          >
-            {teamMembers.map((member, index) => (
-              <motion.div key={index} variants={fadeIn} className="group">
-                <Card className="h-full overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300">
-                  <CardContent className="p-0">
-                    <div className="relative">
-                      <Image
-                        src={member.image || "/placeholder.svg"}
-                        alt={member.name}
-                        width={300}
-                        height={300}
-                        className="w-full h-auto object-cover aspect-square group-hover:scale-105 transition-transform duration-500"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                        <div className="p-6">
-                          <p className="text-white text-sm">{member.bio}</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="p-6 bg-white">
-                      <h3 className="text-xl font-bold text-slate-800 mb-1">{member.name}</h3>
-                      <p className="text-blue-600 font-medium">{member.role}</p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </motion.div>
         </div>
       </section>
 

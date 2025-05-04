@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa"
+import { FaPhoneAlt, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
 import { IoMail } from "react-icons/io5"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
@@ -109,15 +109,8 @@ export default function Header() {
           >
             <FaFacebook size={14} />
           </Link>
-          <Link href={siteConfig.links.twitter} className="hover:text-blue-200 transition-colors" aria-label="Twitter">
-            <FaTwitter size={14} />
-          </Link>
-          <Link
-            href={siteConfig.links.linkedin}
-            className="hover:text-blue-200 transition-colors"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedin size={14} />
+          <Link href={siteConfig.links.youtube} className="hover:text-blue-200 transition-colors" aria-label="YouTube">
+            <FaYoutube size={14} />
           </Link>
           <Link
             href={siteConfig.links.instagram}
@@ -379,18 +372,11 @@ export default function Header() {
                     <FaFacebook size={20} />
                   </Link>
                   <Link
-                    href={siteConfig.links.twitter}
+                    href={siteConfig.links.youtube}
                     className="text-slate-400 hover:text-blue-600 transition-colors"
-                    aria-label="Twitter"
+                    aria-label="YouTube"
                   >
-                    <FaTwitter size={20} />
-                  </Link>
-                  <Link
-                    href={siteConfig.links.linkedin}
-                    className="text-slate-400 hover:text-blue-600 transition-colors"
-                    aria-label="LinkedIn"
-                  >
-                    <FaLinkedin size={20} />
+                    <FaYoutube size={20} />
                   </Link>
                   <Link
                     href={siteConfig.links.instagram}

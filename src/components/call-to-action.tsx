@@ -37,7 +37,7 @@ export default function CallToAction() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-base"
+              className="bg-white text-blue-700 hover:bg-blue-50 rounded-full px-8 py-6 text-base shadow-lg hover:shadow-white/20 hover:shadow-xl transition-all"
             >
               <Link href="tel:+919691815989">Schedule a Call</Link>
             </Button>

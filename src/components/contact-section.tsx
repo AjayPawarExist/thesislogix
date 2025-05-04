@@ -69,7 +69,7 @@ export default function ContactSection() {
                   <h3 className="font-semibold text-lg mb-2">Call Us</h3>
                   <p className="text-slate-600 mb-2">Speak directly with our consultants</p>
                   <Link href="tel:+919691815989" className="text-blue-700 hover:underline">
-                    +91 96918 15989
+                    +91 9691815989
                   </Link>
                 </div>
               </div>
@@ -83,8 +83,8 @@ export default function ContactSection() {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Email Us</h3>
                   <p className="text-slate-600 mb-2">Send us your queries anytime</p>
-                  <Link href="mailto:info@thesislogix.com" className="text-blue-700 hover:underline">
-                    info@thesislogix.com
+                  <Link href="mailto:info@thesislogix.in" className="text-blue-700 hover:underline">
+                    info@thesislogix.in
                   </Link>
                 </div>
               </div>
@@ -138,7 +138,6 @@ export default function ContactSection() {
                       id="email"
                       name="email"
                       type="email"
-                      placeholder="john@example.com"
                       value={formData.email}
                       onChange={handleChange}
                       required
@@ -155,7 +154,6 @@ export default function ContactSection() {
                     id="phone"
                     name="phone"
                     type="tel"
-                    placeholder="+91 9876543210"
                     value={formData.phone}
                     onChange={handleChange}
                     className="rounded-lg border-slate-200 focus:border-blue-500 focus:ring-blue-500 h-12"

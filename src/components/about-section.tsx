@@ -99,7 +99,7 @@ export default function AboutSection() {
 
             <div className="space-y-6 text-slate-600">
               <p className="text-lg">
-                Welcome to ThesisLogix Services, a trusted leader in PG and PhD research assistance since 2005. With a
+                Welcome to ThesisLogix Services, a trusted leader in PG and PhD research assistance since 2014. With a
                 commitment to empowering research scholars, we provide comprehensive research consultation services
                 tailored to the unique needs of each candidate.
               </p>
@@ -137,7 +137,7 @@ export default function AboutSection() {
                   size="lg"
                   className="bg-blue-700 hover:bg-blue-800 text-white rounded-full px-8 py-6 text-base shadow-lg hover:shadow-blue-200/50 hover:shadow-xl transition-all"
                 >
-                  <Link href="/aboutus">Learn More About Us</Link>
+                  <Link href="/about">Learn More About Us</Link>
                 </Button>
               </motion.div>
             </div>

@@ -1,6 +1,6 @@
 "use client"
 
-import { FaPhoneAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaMapMarkerAlt } from "react-icons/fa"
+import { FaPhoneAlt, FaFacebook, FaInstagram, FaMapMarkerAlt, FaYoutube } from "react-icons/fa"
 import { IoMail } from "react-icons/io5"
 import Link from "next/link"
 import { Separator } from "@/components/ui/separator"
@@ -55,18 +55,11 @@ export default function Footer() {
                 <FaFacebook size={18} />
               </Link>
               <Link
-                href={siteConfig.links.twitter}
+                href={siteConfig.links.youtube}
                 className="bg-slate-800 hover:bg-blue-700 text-white p-2.5 rounded-full transition-colors"
-                aria-label="Twitter"
+                aria-label="YouTube"
               >
-                <FaTwitter size={18} />
-              </Link>
-              <Link
-                href={siteConfig.links.linkedin}
-                className="bg-slate-800 hover:bg-blue-700 text-white p-2.5 rounded-full transition-colors"
-                aria-label="LinkedIn"
-              >
-                <FaLinkedin size={18} />
+                <FaYoutube size={18} />
               </Link>
               <Link
                 href={siteConfig.links.instagram}
@@ -139,7 +132,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <IoMail className="text-blue-400 mt-1 flex-shrink-0" />
                 <Link
-                  href={`mailto:${siteConfig.contact.email}`}
+                  href="mailto:info@thesislogix.in"
                   className="text-slate-400 hover:text-blue-400 transition-colors"
                 >
                   {siteConfig.contact.email}
@@ -147,7 +140,9 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-blue-400 mt-1 flex-shrink-0" />
-                <span className="text-slate-400">{siteConfig.contact.address}</span>
+                <Link href="https://maps.app.goo.gl/D31Wba2jDoDNYPTB7" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors">
+                  <span>{siteConfig.contact.address}</span>
+                </Link>
               </li>
             </ul>
           </div>
