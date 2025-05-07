@@ -104,7 +104,7 @@ export default function HeroSection() {
             <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 opacity-30 blur-xl"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?key=research-team"
+                src="/researchteam.jpg"
                 alt="Research Team"
                 width={600}
                 height={600}

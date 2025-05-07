@@ -131,15 +131,23 @@ export default function Header() {
         <div className="container mx-auto px-2 md:px-4">
           <div className="flex h-16 md:h-20 items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 z-10">
+            <div className="flex items-center gap-1">
+              <Link href="/" className="flex items-center gap-2 z-10">
               <Image
-                src="/placeholder.svg?key=thesislogix-logo"
-                width={160}
-                height={40}
+                src="/logo.png"
+                width={100}
+                height={100}
                 alt="ThesisLogix Logo"
                 className="h-10 w-auto"
               />
+            
+            <h3 className="text-xl font-bold">
+              <span className="text-black">Thesis</span>
+              <span className="text-blue-900">Logix</span>
+            </h3>
             </Link>
+            </div>
+            
 
             {/* Desktop Navigation with shadcn NavigationMenu */}
             <div className="hidden md:block">

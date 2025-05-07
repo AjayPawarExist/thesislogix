@@ -49,7 +49,7 @@ export default function AboutSection() {
 
     <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
       <Image
-        src="/placeholder.svg?key=about-thesislogix"
+        src="/eduabout.jpg"
         alt="About ThesisLogix"
         width={600}
         height={600}

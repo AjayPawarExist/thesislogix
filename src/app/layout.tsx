@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Suspense } from "react";
+import SchemaOrg from "@/models/schema/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -95,6 +96,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <SchemaOrg/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >

@@ -1,6 +1,12 @@
 "use server"
 
 import { z } from "zod"
+import { Resend } from "resend"
+import EnquiryEmail from "@/models/email/EnquiryEmail"
+import ThankYouEmail from "@/models/email/ThankYouEmail"
+
+// Initialize Resend with your API key
+const resend = new Resend(process.env.RESEND_API_KEY!)
 
 // Define the schema for form validation
 const formSchema = z.object({
@@ -18,22 +24,31 @@ export async function sendEmail(data: ContactFormData) {
   try {
     // Validate the form data
     const validatedData = formSchema.parse(data)
-
-    // Log the form data to console as requested
     console.log("Form submission received:", validatedData)
 
-    // Here you would typically send an email
-    // For example, using a service like Nodemailer, SendGrid, etc.
+    // Send enquiry to admin
+    await resend.emails.send({
+      from: "Enquiry ThesisLogix <info@thesislogix.in>",
+      to: "info@thesislogix.in",
+      subject: `New contact form submission${validatedData.subject ? `: ${validatedData.subject}` : ""}`,
+      react: EnquiryEmail({ data: validatedData }),
+    })
 
-    // Simulate a delay to mimic sending an email
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    // Send thank-you to user
+    await resend.emails.send({
+      from: "Enquiry ThesisLogix <info@thesislogix.in>",
+      to: validatedData.email,
+      subject: "Thank you for contacting ThesisLogix!",
+      react: ThankYouEmail({ data: validatedData }),
+    })
 
     return { success: true, message: "Your message has been sent successfully!" }
-  } catch (error) {
-    console.error("Error processing contact form:", error)
-    if (error instanceof z.ZodError) {
-      return { success: false, message: "Validation failed", errors: error.errors }
+  } catch (err: unknown) {
+    if (err instanceof z.ZodError) {
+      // Return the first validation error message
+      return { success: false, message: err.errors[0].message }
     }
-    return { success: false, message: "Failed to send your message. Please try again later." }
+    console.error("Error sending email:", err)
+    return { success: false, message: "An error occurred while sending your message." }
   }
 }

@@ -2,11 +2,17 @@ import ContactForm from "@/components/contact/contact-form"
 import ContactHero from "@/components/contact/contact-hero"
 import ContactInfo from "@/components/contact/contact-info"
 import ContactMap from "@/components/contact/contact-map"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | ThesisLogix",
-  description: "Get in touch with our academic experts for personalized research assistance and thesis support.",
+  title: "Contact Us",
+  description: "Reach out to our academic experts for personalized research assistance, thesis support, and consultation. We're here to help with your academic journey.",
+  keywords: "academic support contact, thesis help, research assistance, contact academic experts",
+  openGraph: {
+    title: "Contact ThesisLogix",
+    description: "Get in touch with our team for personalized academic support and thesis guidance.",
+    type: "website",
+  },
 }
 
 export default function ContactPage() {

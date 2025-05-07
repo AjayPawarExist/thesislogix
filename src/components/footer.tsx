@@ -5,6 +5,7 @@ import { IoMail } from "react-icons/io5"
 import Link from "next/link"
 import { Separator } from "@/components/ui/separator"
 import { siteConfig } from "@/config/site"
+import Image from "next/image"
 
 export default function Footer() {
   const quickLinks = [
@@ -37,10 +38,22 @@ export default function Footer() {
           {/* About */}
           <div className="lg:col-span-4">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="font-bold text-white">TL</span>
+              <div className="w-8 h-8 flex items-center justify-center">
+            {/* Logo */}
+            <Link href="/" className="flex items-center gap-2 z-10">
+              <Image
+                src="/logo.png"
+                width={100}
+                height={100}
+                alt="ThesisLogix Logo"
+                className="h-10 w-auto"
+              />
+            </Link>
               </div>
-              <h3 className="text-xl font-bold text-white">ThesisLogix</h3>
+              <h3 className="text-xl font-bold">
+              <span className="text-white">Thesis</span>
+              <span className="text-white">Logix</span>
+            </h3>
             </div>
             <p className="text-slate-400 mb-6 max-w-md">
               Professional research assistance for PG and PhD scholars. We deliver precise analysis, reliable reports,
