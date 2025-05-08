@@ -20,7 +20,7 @@ export default function SchemaOrg() {
           ],
           contactPoint: {
             "@type": "ContactPoint",
-            telephone: "+91-XXXXXXXXXX",
+            telephone: "+91-9691815989",
             contactType: "Customer Support",
             areaServed: "IN",
             availableLanguage: "English"

@@ -3,6 +3,7 @@ import ContactHero from "@/components/contact/contact-hero"
 import ContactInfo from "@/components/contact/contact-info"
 import ContactMap from "@/components/contact/contact-map"
 import type { Metadata } from "next";
+import ContactPageSchema from "./schema";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -12,11 +13,15 @@ export const metadata: Metadata = {
     title: "Contact ThesisLogix",
     description: "Get in touch with our team for personalized academic support and thesis guidance.",
     type: "website",
+    url: "https://thesislogix.in/contact",
+    siteName: "ThesisLogix",
   },
 }
 
 export default function ContactPage() {
   return (
+    <>
+    <ContactPageSchema/>
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       {/* Hero Section */}
       <ContactHero />
@@ -37,5 +42,6 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }
